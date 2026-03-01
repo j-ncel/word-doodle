@@ -204,3 +204,29 @@ button.active {
   display: flex;
   justify-content: space-between;
 }
+
+.hub-footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hub-footer a {
+  font-family: "Space Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+
+.hub-footer a:hover {
+  opacity: 1;
+}
+
+.theme-black .hub-footer {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
