@@ -2,6 +2,17 @@
 
 A browser-based generative text art engine that takes string of text and transforms them into typographic doodles. **word-doodle** scatters words across the screen using a simple collision detection algorithm to place words into empty spaces. It includes a control hub where users can input text, change fonts, select text cases, and apply word limits with additional options to generate the doodle, wipe the screen, or take a screenshot.
 
+![word-doodle demo GIF](demo/demo.gif)
+
+## Samples
+
+| Font Style        |                     White Theme                      |                     Black Theme                      |                     Gray Theme                      |
+| :---------------- | :--------------------------------------------------: | :--------------------------------------------------: | :-------------------------------------------------: |
+| **Anton**         |    <img src="demo/anton-white.png" width="200" />    |    <img src="demo/anton-black.png" width="200" />    |    <img src="demo/anton-gray.png" width="200" />    |
+| **Courier Prime** |   <img src="demo/courier-white.png" width="200" />   |   <img src="demo/courier-black.png" width="200" />   |   <img src="demo/courier-gray.png" width="200" />   |
+| **Space Mono**    |  <img src="demo/spacemono-white.png" width="200" />  |  <img src="demo/spacemono-black.png" width="200" />  |  <img src="demo/spacemono-gray.png" width="200" />  |
+| **Baskerville**   | <img src="demo/baskerville-white.png" width="200" /> | <img src="demo/baskerville-black.png" width="200" /> | <img src="demo/baskerville-gray.png" width="200" /> |
+
 ## Doodle Control Hub
 
 The **Doodle Hub** is a floating, interactive interface that allows you to configure and generate your **word-doodle** art in real-time.
