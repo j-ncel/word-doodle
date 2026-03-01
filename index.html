@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>word-doodle</title>
+  </head>
+  <body class="theme-white">
+    <div id="ui-hub">
+      <div id="hub-header">
+        <span>Doodle Hub</span>
+        <span id="minimize-btn">_</span>
+      </div>
+      <div id="hub-content">
+        <div class="section-title">STRING SOURCE</div>
+        <textarea id="seed-input">
+word doodle generate cool art share your thoughts here</textarea
+        >
+
+        <div id="stats">
+          <span id="word-stats">Unique: 0 | Total: 0</span>
+          <span id="canvas-count">On Canvas: 0</span>
+        </div>
+
+        <div class="section-title">FONT</div>
+        <select id="font-select">
+          <option value="'Anton', sans-serif" selected>ANTON</option>
+          <option value="'Courier Prime', monospace">COURIER PRIME</option>
+          <option value="'Space Mono', monospace">SPACE MONO</option>
+          <option value="'Libre Baskerville', serif">BASKERVILLE</option>
+        </select>
+
+        <div class="section-title">TEXT CASE</div>
+        <div class="btn-group" id="case-group">
+          <button data-case="upper" class="active">UPPER</button>
+          <button data-case="lower">lower</button>
+          <button data-case="title">Title</button>
+        </div>
+
+        <div class="section-title">WORD LIMIT</div>
+        <div class="btn-group">
+          <input type="number" id="limit-input" value="300" />
+        </div>
+
+        <div class="section-title">Environment</div>
+        <div class="btn-group" id="theme-group">
+          <button data-theme="white" class="active">WHITE</button>
+          <button data-theme="black">BLACK</button>
+          <button data-theme="gray">GRAY</button>
+        </div>
+
+        <div class="btn-group" style="margin-top: 20px">
+          <button id="generate-btn">GENERATE</button>
+          <button id="wipe-btn">WIPE</button>
+          <button id="capture-btn">SCREENSHOT</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="hub-trigger">⚙</div>
+    <div id="viewport"></div>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
