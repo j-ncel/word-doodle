@@ -1,6 +1,8 @@
-# word-doodle
+# [word-doodle](https://j-ncel.github.io/word-doodle/)
 
 A browser-based generative text art engine that takes string of text and transforms them into typographic doodles. **word-doodle** scatters words across the screen using a simple collision detection algorithm to place words into empty spaces. It includes a control hub where users can input text, change fonts, select text cases, and apply word limits with additional options to generate the doodle, wipe the screen, or take a screenshot.
+
+**[Live Demo](https://j-ncel.github.io/word-doodle/)**
 
 ![word-doodle demo GIF](demo/demo.gif)
 
